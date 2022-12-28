@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//Задача 19 Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом. число, буквосочетание, слово или текст, одинаково читающееся в обоих направлениях
+
+Console.Write("введите любое пятизначное число ");
+string str = Console.ReadLine();
+   Console.WriteLine("Вы ввели не пятизначное число");
+char[] a=str.ToCharArray();
